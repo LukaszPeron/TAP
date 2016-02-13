@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tap_blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/splash_logo_timac_background_image"
+            android:src="@drawable/splashrolnicze"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/splash_obraz_tlo" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/splash_logo_timac_background_black_overlay"
+            android:layout_alignParentEnd="false"
+            android:scaleType="center"
+            android:nestedScrollingEnabled="false"
+            android:contentDescription="@string/splash_nakladka_na_obraz" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/splash_logo_timac"
+            android:src="@drawable/logotimac"
+            android:scaleType="fitCenter"
+            android:padding="60sp"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/splash_haslo"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/splash_timac_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_timac_haslo"
+            android:id="@+id/splash_haslo"
+            android:padding="10sp"
+            android:textColor="@color/white_text"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_perondev_text"
+            android:id="@+id/splash_perondev"
+            android:padding="10sp"
+            android:textColor="@color/white_text"
+            android:gravity="center"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.perondev.timacagropolska.glowna_programy"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/warzywatap"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rolniczy"
+            android:id="@+id/b_programy_rolnicze"
+            android:background="@color/black_Transparent_Overlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="32dp"
+            android:gravity="center_vertical|bottom|end"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/b_glowna_produkty_text_desc" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Produkty granulowane oraz płynne prosto od grupy Roullier - Timac Agro"
+            android:id="@+id/b_glowna_produkty_text_desc"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/tap_orange"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="bottom|end" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/owocetap" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sadowniczy"
+            android:id="@+id/b_programy_sadownicze"
+            android:background="@color/black_Transparent_Overlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="32dp"
+            android:gravity="center_vertical|bottom|end"
+            android:padding="10dp"
+            android:layout_toStartOf="@+id/b_glowna_programy_text_desc"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Programy odzywiania roślin: rolniczych, sadowniczych, owoców oraz warzyw"
+            android:id="@+id/b_glowna_programy_text_desc"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/tap_pink"
+            android:gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="false"
+            android:autoText="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/serwistap" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Owoce\njagodowe"
+            android:id="@+id/b_programy_jagodowe"
+            android:background="@color/black_Transparent_Overlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="32dp"
+            android:gravity="center_vertical|bottom|end"
+            android:padding="10dp"
+            android:layout_toStartOf="@+id/b_glowna_serwis_text_desc"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Specjalizujemy sie w pomocy naszym klientom - fluorymetria i badania gleby oraz AgroGPS - oto nasze atuty"
+            android:id="@+id/b_glowna_serwis_text_desc"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/tap_green"
+            android:gravity="bottom|end"
+            android:layout_alignBottom="@+id/b_programy_jagodowe"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kontakttap"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Warzywa"
+            android:id="@+id/b_programy_warzywa"
+            android:background="@color/black_Transparent_Overlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="32dp"
+            android:gravity="center_vertical|bottom|end"
+            android:padding="10dp"
+            android:layout_toStartOf="@+id/b_glowna_kontakt_text_desc"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Skontaktuj sie z nami, jesteśmy dla Ciebie"
+            android:id="@+id/b_glowna_kontakt_text_desc"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/tap_blue"
+            android:gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

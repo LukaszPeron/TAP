@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.perondev.timacagropolska">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        //start launcher LPe
+        <activity android:name=".splash_screen_tap" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        ////start glowna LPe
+        <activity android:name=".glowna" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        ////start podstrony LPe
+        <activity android:name=".glowna_produkty" android:screenOrientation="portrait" />
+        <activity android:name=".glowna_kontakt" android:screenOrientation="portrait" />
+        <activity android:name=".glowna_serwis" android:screenOrientation="portrait" />
+        <activity android:name=".glowna_programy" android:screenOrientation="portrait" />
+        <activity android:name=".glowna_plynne" android:screenOrientation="portrait" />
+        <activity android:name=".glowna_granulowane" android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

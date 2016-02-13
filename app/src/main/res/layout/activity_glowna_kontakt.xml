@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.perondev.timacagropolska.glowna_kontakt"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/kontakttap"
+            android:longClickable="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontakt Timac Agro"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="32dp"
+            android:textColor="@color/white_text"
+            android:gravity="center_vertical|bottom|end"
+            android:padding="10dp"
+            android:background="@color/black_Transparent_Overlay" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produkty granulowane od Timac Agro zawierają substancje biostymulujące, które wspomagaja procesy przemian w roślinie. Taka kombinacja - natury z chemią - daje nieporównywalnie lepsze efekty w gospodarowaniu odżywianiem roślin - bo tym właśnie zajmuje sie Timac Agro"
+            android:id="@+id/textView10"
+            android:textColor="@color/white_text"
+            android:gravity="center_vertical|bottom|end"
+            android:padding="10dp"
+            android:background="@color/black_Transparent_Overlay"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Zapraszamy do kontaktu z naszymi doradcami"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|end"
+            android:paddingLeft="10dp"
+            android:background="@color/tap_blue"
+            android:textColor="@color/white_text"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:nestedScrollingEnabled="false">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Kontakt_dane"
+                android:id="@+id/textView2"
+                android:textSize="18sp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:nestedScrollingEnabled="false"
+                android:autoText="false"
+                android:phoneNumber="false"
+                android:textColor="@color/tap_blue" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

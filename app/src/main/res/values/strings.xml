@@ -1,0 +1,43 @@
+<resources>
+    //START Kontakt activity_kontakt
+    //------------------------------
+    <string name="app_name">Timac Agro Polska</string>
+    <string name="Kontakt_dane">\n\n<b>Timac Agro Polska sp. z o.o.</b>\n\nul.Kasztanowa 4\n64–320 Buk\n\nNIP: 777–27–05–750</string>
+    <string name="Kontakt_dane2">\n\nPeroń, próba danych 2</string>
+    //END Kontakt activity_kontakt
+    //----------------------------
+
+
+
+    //START Główna strona activity_glowna
+    //-----------------------------------
+    <string name="desc_logo_tap">Logo Timac Agro Polska</string>
+    <string name="desc_logo_roullier">Logo Roullier Group</string>
+    <string name="desc_image_produkty_glowna">Produkty TAP obraz</string>
+    <string name="button_glowna_produkty_title">Produkty</string>
+    <string name="button_glowna_produkty_desc">Katalog Timac Agro oraz opisy technologii zastosowane w naszych produktach</string>
+    <string name="button_glowna_programy_title">Programy\nodżywiania</string>
+    <string name="button_glowna_programy_desc">Programy odzywiania roślin: rolniczych, sadowniczych, owoców oraz warzyw</string>
+    <string name="button_glowna_serwis_desc">Nasi Doradcy są do Twojej dyspozycji - fluorymetria, badania gleby czy AgroGPS - doradzamy naszym klientom</string>
+    <string name="button_glowna_serwis_title">Serwis</string>
+    <string name="button_glowna_kontakt_title">Kontakt</string>
+    <string name="button_glowna_kontakt_desc">Skontaktuj sie z nami, jesteśmy dla Ciebie</string>
+    <string name="desc_programy_odzywiania_tap">Programy odżywiania roślin Timac Agro</string>
+    <string name="desc_serwis_tap">Serwis Timac Agro</string>
+    <string name="desc_kontakt_tap">Kontakt Timac Agro</string>
+    //END Główna strona activity_glowna
+    //---------------------------------
+
+
+
+    //START Splash Screen activity_splash
+    //-----------------------------------
+    <string name="splash_nakladka_na_obraz">Timac Agro nakładka na obraz</string>
+    <string name="splash_obraz_tlo">Timac Agro obraz rolniczy</string>
+    <string name="splash_timac_haslo"> </string>
+    <string name="splash_perondev_text">PeronDev.com - Łukasz Peroń | v.1.0 (beta)</string>
+    <string name="splash_timac_logo">Timac Agro Logo</string>
+    //END Splash Screen activity_splash
+    //---------------------------------
+
+</resources>

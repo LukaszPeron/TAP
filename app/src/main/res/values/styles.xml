@@ -1,0 +1,93 @@
+<resources>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textAllCaps">false</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    //Przyciski główne z obrazkami (przycisk z nazwa i transparentnym czarnym kolorem)
+    <style name="button_w_images_tap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:background">@color/black_Transparent_Overlay</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:gravity">center_vertical|bottom|end</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:layout_alignParentBottom">false</item>
+    </style>
+
+    //Przyciski główne z obrazkami (opis po prawej stronie w kolorowym kwadracie)
+    <style name="button_w_image_tap_desc">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">140sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    //Wąska belka za header title podstron (ta ciemniejsza)
+    <style name="button_w_image_tap_desc_n">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">40sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    //Przyciski główne z obrazkami (obrazek-tło)
+    <style name="button_w_images_tap_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    //Headers kolorowe
+    <style name="headers_kolorowe_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:gravity">bottom|start</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="headers_kolorowe_desc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">top|start</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_below">@+id/h_produkty_title_text</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingTop">0sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+
+    </style>
+
+</resources>

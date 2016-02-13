@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Podstawowe kolory
+    <color name="colorPrimary">#00aeef</color>
+    <color name="colorPrimaryDark">#006489</color>
+    <color name="colorAccent">#96be14</color>
+
+    //Nakładka i kolor tekstu
+    <color name="black_Transparent_Overlay">#64000000</color>
+    <color name="white_text">#ffffff</color>
+
+    //Kolor podstawowy niebieski TAP
+    <color name="tap_blue">#00aeef</color>
+    <color name="tap_blue_transparent">#9600b8ff</color>
+    <color name="tap_blue_transparent_h">#be00b8ff</color>
+
+    //Kolor różowy
+    <color name="tap_pink">#ce0036</color>
+    <color name="tap_pink_transparent">#96d80940</color>
+    <color name="tap_pink_transparent_h">#bed80940</color>
+
+    //Kolor zielony
+    <color name="tap_green">#81ac00</color>
+    <color name="tap_green_transparent">#96b2e128</color>
+    <color name="tap_green_transparent_h">#beb2e128</color>
+
+    //Kolor pomarańczowy
+    <color name="tap_orange">#e88300</color>
+    <color name="tap_orange_transparent">#96fd9001</color>
+    <color name="tap_orange_transparent_h">#befd9001</color>
+
+    //Kolor zółty
+    <color name="tap_yellow">#e8ad00</color>
+    <color name="tap_yellow_transparent">#96e8ad00</color>
+    <color name="tap_yellow_transparent_h">#bee8ad00</color>
+
+    //Kolor czerwony
+    <color name="tap_red">#990000</color>
+    <color name="tap_red_transparent">#96990000</color>
+    <color name="tap_red_transparent_h">#be990000</color>
+
+    //Kolor szary 115
+    <color name="tap_grey115">#737373</color>
+    <color name="tap_grey115_transparent">#96737373</color>
+    <color name="tap_grey115_transparent_h">#be737373</color>
+
+    //Kolor szary 80
+    <color name="tap_grey80">#505050</color>
+    <color name="tap_grey80_transparent">#96505050</color>
+    <color name="tap_grey80_transparent_h">#be505050</color>
+
+
+
+//Produkty
+
+
+    //Granulowane
+    //-----------
+
+    //Kolor Pinkstart
+    <color name="tap_pinkstart">#e6007d</color>
+    <color name="tap_pinkstart_transparent">#96e6007d</color>
+
+    //Kolor Physiostart
+    <color name="tap_physiostart">#f49917</color>
+    <color name="tap_physiostart_transparent">#96f49917</color>
+
+    //Kolor Physiomax
+    <color name="tap_physiomax">#39614e</color>
+    <color name="tap_physiomax_transparent">#9639614e</color>
+
+    //Kolor Eurofertil
+    <color name="tap_eurofertil">#1071b8</color>
+    <color name="tap_eurofertil_transparent">#961071b8</color>
+
+    //Kolor Top
+    <color name="tap_top">#a6a91c</color>
+    <color name="tap_top_transparent">#96a6a91c</color>
+
+    //Kolor Sulfammo
+    <color name="tap_sulfammo">#ebbd00</color>
+    <color name="tap_sulfammo_transparent">#96ebbd00</color>
+
+
+    //Płynne
+    //------
+
+    //Kolor Starter
+    <color name="tap_starter">#1071b8</color>
+    <color name="tap_starter_transparent">#961071b8</color>
+
+    //Kolor Tonic
+    <color name="tap_tonic">#50bfef</color>
+    <color name="tap_tonic_transparent">#9650bfef</color>
+
+    //Kolor Leos
+    <color name="tap_leos">#c0398d</color>
+    <color name="tap_leos_transparent">#96ffc6ff</color>
+
+    //Kolor Vital
+    <color name="tap_vital">#cbba00</color>
+    <color name="tap_vital_transparent">#96cbba00</color>
+
+    //Kolor Axis
+    <color name="tap_axis">#8f8500</color>
+    <color name="tap_axis_transparent">#968f8500</color>
+
+    //Kolor Magnum
+    <color name="tap_magnum">#eeaec1</color>
+    <color name="tap_magnum_transparent">#96eeaec1</color>
+
+    //Kolor Gold
+    <color name="tap_gold">#ffde00</color>
+    <color name="tap_gold_transparent">#96ffde00</color>
+
+    //Kolor Elite
+    <color name="tap_elite">#c0398d</color>
+    <color name="tap_elite_transparent">#96ffc6ff</color>
+
+    //Kolor Maxifruit
+    <color name="tap_maxifruit">#008d38</color>
+    <color name="tap_maxifruit_transparent">#96008d38</color>
+
+
+</resources>

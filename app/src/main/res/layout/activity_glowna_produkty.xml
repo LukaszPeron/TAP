@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.perondev.timacagropolska.glowna_produkty"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@color/tap_yellow" >
+
+        <TextView
+            android:text="@string/button_glowna_produkty_title"
+            android:id="@+id/h_produkty_title_text"
+            android:background="@color/tap_yellow"
+            android:textColor="@color/white_text"
+            android:layout_toStartOf="@+id/b_produkty_title_desc"
+            style="@style/headers_kolorowe_title" />
+
+        <TextView
+            android:text="@string/button_glowna_produkty_desc"
+            android:id="@+id/h_produkty_title_desc"
+            android:background="@color/tap_yellow"
+            android:textColor="@color/white_text"
+            android:layout_toStartOf="@+id/b_produkty_title_desc"
+            style="@style/headers_kolorowe_desc" />
+
+        <TextView
+            android:id="@+id/b_produkty_title_desc"
+            style="@style/button_w_image_tap_desc_n"
+            android:background="@color/black_Transparent_Overlay" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_produkty_granule_image"
+            android:src="@drawable/solidtap"
+            style="@style/button_w_images_tap_image" />
+
+        <Button
+            android:text="Nawozy granulowane"
+            android:id="@+id/b_produkty_granule_title_button"
+            android:layout_toStartOf="@+id/b_produkty_granule_title_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:id="@+id/b_produkty_granule_title_desc"
+            android:background="@color/tap_grey115"
+            style="@style/button_w_image_tap_desc"
+            android:text="Jedyne w Polsce posypowe nawozy granulowane zawierające substancje biostymulujące" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_programy_image"
+            android:src="@drawable/liquidtap"
+            style="@style/button_w_images_tap_image" />
+
+        <Button
+            android:text="Nawozy płynne"
+            android:id="@+id/b_produkty_plyny_title_button"
+            android:layout_toStartOf="@+id/b_produkty_plynne_title_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:id="@+id/b_produkty_plynne_title_desc"
+            android:background="@color/tap_red"
+            style="@style/button_w_image_tap_desc"
+            android:text="Nawozy płynne zawierające kompleksy biostymulujące oraz nawozy do fertygacji" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_serwis_image"
+            android:src="@drawable/innetap"
+            style="@style/button_w_images_tap_image" />
+
+        <Button
+            android:text="Inne"
+            android:id="@+id/b_produkty_inne_title_button"
+            android:layout_toStartOf="@+id/b_produkty_inne_title_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:id="@+id/b_produkty_inne_title_desc"
+            android:background="@color/tap_eurofertil"
+            style="@style/button_w_image_tap_desc"
+            android:text="Zaprawy nasienne, zakiszacza oraz bloki mineralne" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_kontakt_image"
+            android:src="@drawable/labtap"
+            style="@style/button_w_images_tap_image" />
+
+        <Button
+            android:text="Technologie"
+            android:id="@+id/b_produkty_tech_title_button"
+            android:layout_toStartOf="@+id/b_produkty_tech_text_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:id="@+id/b_produkty_tech_text_desc"
+            android:background="@color/tap_top"
+            style="@style/button_w_image_tap_desc"
+            android:text="Mezocalc, Physio+, Top-Phos, N-Process, Seativ, Fertiactyl, NMX" />
+
+    </RelativeLayout>
+
+</LinearLayout>

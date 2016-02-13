@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.perondev.timacagropolska.glowna"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/b_glowna_about_app_logo_button"
+            android:layout_toStartOf="@+id/b_glowna_about_roullier_logo_button"
+            android:src="@drawable/logotimac"
+            android:background="@color/tap_blue"
+            android:scaleType="fitCenter"
+            android:paddingEnd="10sp"
+            android:paddingStart="30sp"
+            android:contentDescription="@string/desc_logo_tap" />
+
+        <ImageButton
+            android:layout_width="140sp"
+            android:layout_height="match_parent"
+            android:id="@+id/b_glowna_about_roullier_logo_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/logoroullier"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"
+            android:padding="26sp"
+            android:contentDescription="@string/desc_logo_roullier" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_produkty_image"
+            android:src="@drawable/techtap"
+            style="@style/button_w_images_tap_image"
+            android:contentDescription="@string/desc_image_produkty_glowna" />
+
+        <Button
+            android:text="@string/button_glowna_produkty_title"
+            android:id="@+id/b_glowna_produkty_title_button"
+            android:layout_toStartOf="@+id/b_glowna_produkty_text_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:text="@string/button_glowna_produkty_desc"
+            android:id="@+id/b_glowna_produkty_text_desc"
+            android:background="@color/tap_yellow"
+            style="@style/button_w_image_tap_desc" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_programy_image"
+            android:src="@drawable/owocetap"
+            style="@style/button_w_images_tap_image"
+            android:contentDescription="@string/desc_programy_odzywiania_tap" />
+
+        <Button
+            android:text="@string/button_glowna_programy_title"
+            android:id="@+id/b_glowna_programy_title_button"
+            android:layout_toStartOf="@+id/b_glowna_programy_text_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:text="@string/button_glowna_programy_desc"
+            android:id="@+id/b_glowna_programy_text_desc"
+            android:background="@color/tap_pink"
+            style="@style/button_w_image_tap_desc" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_serwis_image"
+            android:src="@drawable/serwistap"
+            style="@style/button_w_images_tap_image"
+            android:contentDescription="@string/desc_serwis_tap" />
+
+        <Button
+            android:text="@string/button_glowna_serwis_title"
+            android:id="@+id/b_glowna_serwis_title_button"
+            android:layout_toStartOf="@+id/b_glowna_serwis_text_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:text="@string/button_glowna_serwis_desc"
+            android:id="@+id/b_glowna_serwis_text_desc"
+            android:background="@color/tap_green"
+            style="@style/button_w_image_tap_desc" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/b_glowna_kontakt_image"
+            android:src="@drawable/kontakttap"
+            style="@style/button_w_images_tap_image"
+            android:contentDescription="@string/desc_kontakt_tap" />
+
+        <Button
+            android:text="@string/button_glowna_kontakt_title"
+            android:id="@+id/b_glowna_kontakt_title_button"
+            android:layout_toStartOf="@+id/b_glowna_kontakt_text_desc"
+            style="@style/button_w_images_tap" />
+
+        <TextView
+            android:text="@string/button_glowna_kontakt_desc"
+            android:id="@+id/b_glowna_kontakt_text_desc"
+            android:background="@color/tap_blue"
+            style="@style/button_w_image_tap_desc" />
+
+    </RelativeLayout>
+
+</LinearLayout>
